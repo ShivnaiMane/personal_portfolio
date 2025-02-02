@@ -1,5 +1,6 @@
 import Home from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Home />
         <Skills />
+        <Projects />
       </div>
     </div>
   )
