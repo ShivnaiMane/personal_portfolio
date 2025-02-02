@@ -1,7 +1,6 @@
 import logo from "../assets/logo.png"
 import { contacts } from "../assets/data.tsx"
 const Navbar = () => {
-  console.log(contacts)
   return (
     <nav className="flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
