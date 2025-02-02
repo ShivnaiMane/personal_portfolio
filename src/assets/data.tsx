@@ -1,9 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 
-
-export const skills = ["React", "JavaScript", "HTML", "CSS"];
-
 export const projects = [
   {
     id: "1",
