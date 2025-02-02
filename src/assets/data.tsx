@@ -1,3 +1,7 @@
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+
+
 export const skills = ["React", "JavaScript", "HTML", "CSS"];
 
 export const projects = [
@@ -32,16 +36,14 @@ export const projects = [
   },
 ];
 
-export const contact = [
+export const contacts = [
   {
     name: "linkdin",
-    icon: "",
+    icon: <FaLinkedin />,
     url: "https://www.linkedin.com/in/shivanibmane/",
   },
   {
-    name: "naukri",
-    icon: "",
-    url: "https://www.naukri.com/mnjuser/profile?id=&altresid",
+    name: "github", icon: <FaGithubSquare />
+    , url: "https://github.com/ShivnaiMane"
   },
-  { name: "github", icon: "", url: "https://github.com/ShivnaiMane" },
 ];
