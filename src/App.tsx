@@ -15,6 +15,7 @@ function App() {
         <Home />
         <Skills />
         <Projects />
+        <p className="my-5 pt-2 border-t-2 border-gray-300 text-center text-sm">Credits: Special thanks to <a href="https://www.linkedin.com/company/madrocket/about/">Madrocket Technologies & Media</a> and compiletab <a href="https://www.youtube.com/watch?v=wtGCTFXWV3Y&ab_channel=compiletab">www.youtube.com/@compiletab</a> for their invaluable guidance in helping me create this portfolio site.</p>
       </div>
     </div>
   )
