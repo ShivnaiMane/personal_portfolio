@@ -4,10 +4,10 @@ import { SiFirebase } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaHtml5 } from "react-icons/fa";
-import { motion } from "framer-motion"
+import { motion, Variants } from "framer-motion"
 
 
-const iconVariants = (duration) => ({
+const iconVariants = (duration: number): Variants => ({
   initial: { y: -10 },
   animate: {
     y: [10, -10],
@@ -19,7 +19,6 @@ const iconVariants = (duration) => ({
     }
   }
 })
-
 
 const Skills = () => {
   return (
