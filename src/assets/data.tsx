@@ -39,6 +39,6 @@ export const contacts = [
   },
   {
     name: "github", icon: <FaGithubSquare />
-    , url: "https://github.com/ShivnaiMane"
+    , url: "https://github.com/shivanibmane"
   },
 ];
